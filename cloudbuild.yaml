@@ -24,4 +24,5 @@ steps:
       ]
 images:
   - gcr.io/nlp-lstm-457014/nlp-lstm
-logging: CLOUD_LOGGING_ONLY
+options:
+  logging: CLOUD_LOGGING_ONLY
